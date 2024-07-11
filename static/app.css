@@ -1,0 +1,65 @@
+#boggle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#word-List {
+    max-width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+
+.board td {
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid #ccc;
+}
+
+.score {
+    margin-right: 10px;
+}
+
+.timer {
+    margin-right: 10px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.word {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.words {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+}
+
+.words li {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.err {
+    color: red;
+}
+
+.ok {
+    color: green;
+}
